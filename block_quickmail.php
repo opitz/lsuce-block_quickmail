@@ -29,7 +29,9 @@ class block_quickmail extends block_list {
     public $user;
     public $content;
     public $systemcontext;
+    public $system_context;
     public $coursecontext;
+    public $course_context;
 
     public function init() {
         $this->title = $this->get_title();
